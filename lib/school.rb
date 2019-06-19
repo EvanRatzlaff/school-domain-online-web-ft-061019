@@ -18,6 +18,6 @@ class School
       @roster.each do |grade, student| 
         roster[grade] = student.sort 
   end 
-  nu_hash
+  roster
 end 
   end 
