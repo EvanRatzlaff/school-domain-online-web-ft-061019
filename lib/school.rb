@@ -11,10 +11,4 @@ class School
       roster[grade] ||= {}
       roster[grade] << student 
     end 
-    def grade(grade)
-      roster[grade]
-    end
-    def sort 
-      roster.each do |grade, student| student.sort!
-    end 
   end 
