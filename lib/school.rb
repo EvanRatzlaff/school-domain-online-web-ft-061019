@@ -1,3 +1,4 @@
+require 'pry'
 class School
   attr_reader :roster
   def initialize(school_name)
@@ -10,5 +11,6 @@ class School
     def add_student(student, grade)
       #roster[grade] ||= {}
       #roster[grade] << student 
+      binding.pry
     end 
   end 
