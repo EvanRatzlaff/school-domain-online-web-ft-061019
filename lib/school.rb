@@ -15,6 +15,9 @@ class School
       roster[grade]
     end
     def sort 
-      roster.each do |grade, student| student.sort!
-    end 
+      @roster.each do |grade, student| 
+        roster[grade] = student.sort 
+  end 
+  nu_hash
+end 
   end 
